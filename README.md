@@ -1,6 +1,8 @@
 # Labs_Java
 Lab1:
+
 Варіант 20: 
+
 Create a class "Farm" which contains the fields:
 - location
 - number of animals
