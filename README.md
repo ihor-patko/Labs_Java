@@ -4,9 +4,10 @@ Lab1:
 Варіант 20: 
 
 Create a class "Farm" which contains the fields:
-- location
-- number of animals
-- fan power (in watts)
+- location,
+- number of animals,
+- fan power (in watts);
+
 Create a console program in Java and write a record class Farm which will additionally contain:
 
 1)Three private fields that best describe this class (total - 6 fields);
