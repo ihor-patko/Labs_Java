@@ -19,12 +19,12 @@ record Farm(String name,String location,int animals,int yield, int square,int po
     @Override
     public String toString () {
         String res = "Farm: ";
-        if(name() != "") res += "\n\tName: " + name() + ";";
-        if(location() != "") res+= "\n\tLocation: " + location() + ";";
-        if(animals() != 0) res += "\n\tCount of animals: " + animals() + ";";
-        if(yield != 0) res += "\n\tAnnual yield: " + yield + " kg;";
-        if(square() != 0) res += "\n\tSquare of arable land: " + square() + " hectares;";
-        if(power() != 0) res += "\n\tPower of ventilators: " + power() + " watts;";
+        res += "\n\tName: " + name() + ";";
+        res += "\n\tLocation: " + location() + ";";
+        res += "\n\tCount of animals: " + animals() + ";";
+        res += "\n\tAnnual yield: " + yield + " kg;";
+        res += "\n\tSquare of arable land: " + square() + " hectares;";
+        res += "\n\tPower of ventilators: " + power() + " watts;";
         return res;
     }
 }
